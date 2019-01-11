@@ -1,0 +1,6 @@
+google-cloud-firestore==0.30.1
+google-cloud-pubsub==0.34.0
+google-cloud-storage==1.13.1
+google-cloud-bigquery==1.8.1
+google-cloud-core==0.29.1
+pytz==2018.7
