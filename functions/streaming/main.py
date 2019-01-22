@@ -48,7 +48,7 @@ PS = pubsub_v1.PublisherClient()
 BQ = bigquery.Client()
 
 
-def streaming(data):
+def streaming(data, context):
     '''This function is executed whenever a file is added to Cloud Storage'''
     bucket_name = data['bucket']
     file_name = data['name']
