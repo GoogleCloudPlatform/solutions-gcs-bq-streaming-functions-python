@@ -24,7 +24,7 @@ from google.cloud import storage
 
 CS = storage.Client()
 
-def move_file(data):
+def move_file(data, context):
     '''This function is executed from a Cloud Pub/Sub'''
     message = base64.b64decode(data['data']).decode('utf-8')
     file_name = data['attributes']['file_name']
