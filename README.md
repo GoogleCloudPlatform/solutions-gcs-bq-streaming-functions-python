@@ -8,4 +8,4 @@ Finally the data from the BigQuery can be visualized using DataStudio or a front
 API integration.
 
 For more details of how to execute the steps of this streaming pipeline, please take a look on 
-(Streaming data from Cloud Storage into BigQuery using Cloud Functions)[http://..] Tutorial.
+[Streaming data from Cloud Storage into BigQuery using Cloud Functions](https://cloud.google.com/solutions/streaming-data-from-cloud-storage-into-bigquery-using-cloud-functions) Tutorial.
